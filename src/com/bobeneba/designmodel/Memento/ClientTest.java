@@ -14,11 +14,6 @@ public class ClientTest {
 		System.out.println("改变后状态："+originator.getState());
 		originator.restoreMemento(caretaker.getMemento());
 		System.out.println("恢复后状态："+originator.getState());
-
-
-	
-	
-	
 	}
 
 }
